@@ -16,9 +16,6 @@
 //Now add a sayName method on your Person class that will alert the name of whatever Person instance called it.
 
   //code here
-Person.prototype = {
-  getName: function() {
+Person.prototype.sayName = function() {
     alert(this.name);
   }
-}
-mark.getName();
